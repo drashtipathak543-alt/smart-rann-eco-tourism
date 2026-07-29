@@ -1,73 +1,53 @@
-# 🏜️ Smart Rann Eco Tourism Planner
+# Smart Rann of Kutch Eco-Tourism & Carrying Capacity Planner
 
-A full-stack eco-tourism planning platform for the Rann of Kutch, featuring AI chatbot, crowd prediction, eco itinerary generation, real-time weather, Google Maps integration, analytics dashboard, and multilingual support.
+## Domain
+Tourism
 
-## Tech Stack
+## Overview
+Smart Rann of Kutch Eco-Tourism & Carrying Capacity Planner is an Agentic AI solution designed to manage sustainable tourism in the Kutch region.
 
-| Layer       | Technology                              |
-|-------------|------------------------------------------|
-| Frontend    | Next.js 14, TypeScript, Tailwind CSS     |
-| Backend     | FastAPI (Python 3.11)                    |
-| Database    | PostgreSQL 15 + SQLAlchemy ORM           |
-| AI/ML       | OpenAI GPT-4, scikit-learn (crowd pred) |
-| Maps        | Google Maps JavaScript API               |
-| Weather     | OpenWeatherMap API                       |
-| i18n        | next-intl (English, Hindi, Gujarati)     |
-| Auth        | JWT (python-jose)                        |
-| Deployment  | Docker + Docker Compose                  |
+The system helps forecast tourist loads, recommend eco-friendly travel plans, monitor ecological carrying capacity, and support local communities.
 
-## Features
+## Problem Statement
+The Rann Utsav and Kutch region attract heavy seasonal tourist inflow. This creates pressure on fragile desert ecology, water resources, and infrastructure.
 
-- 🤖 **AI Chatbot** — GPT-4 powered travel assistant for Rann queries
-- 📊 **Crowd Prediction** — ML-based visitor density forecasting
-- 🗺️ **Eco Itinerary** — Personalised, sustainability-scored itineraries
-- 🌦️ **Live Weather** — Current & forecast for Rann locations
-- 📍 **Google Maps** — Interactive POI map with eco zones
-- 📈 **Analytics Dashboard** — Visitor trends, eco impact metrics
-- 🌐 **Multilingual** — English, Hindi (हिन्दी), Gujarati (ગુજરાતી)
-- 📱 **Responsive UI** — Mobile-first design
+Visitors also need better guidance about sustainable travel options and lesser-known eco-tourism destinations.
 
-## Quick Start
+## Objective
+Build Agentic AI solutions that:
+- Manage tourist load
+- Recommend sustainable itineraries
+- Protect ecologically sensitive zones
+- Promote responsible tourism
 
-```bash
-# Clone and enter
-cd rann-eco-tourism
+## AI Agents
 
-# Copy environment variables
-cp .env.example .env
-# Edit .env with your API keys
+### 1. Tourist Load Forecasting Agent
+Predicts tourist crowd levels and helps manage visitor flow.
 
-# Start all services
-docker-compose up --build
-```
+### 2. Sustainable Itinerary Recommendation Agent
+Provides personalized eco-friendly travel recommendations.
 
-Frontend: http://localhost:3000  
-Backend API: http://localhost:8000  
-API Docs: http://localhost:8000/docs
+### 3. Ecological Carrying Capacity Agent
+Monitors environmental limits and protects sensitive areas.
 
-## Project Structure
+### 4. Local Artisan & Community Linkage Agent
+Connects tourists with local artisans and communities.
 
-```
-rann-eco-tourism/
-├── frontend/          # Next.js 14 app
-│   ├── src/
-│   │   ├── app/       # App Router pages
-│   │   ├── components/
-│   │   ├── lib/       # API clients, utils
-│   │   └── messages/  # i18n translation files
-│   └── ...
-├── backend/           # FastAPI application
-│   ├── app/
-│   │   ├── api/       # Route handlers
-│   │   ├── models/    # SQLAlchemy models
-│   │   ├── schemas/   # Pydantic schemas
-│   │   ├── services/  # Business logic
-│   │   └── core/      # Config, database, auth
-│   └── ...
-├── docker-compose.yml
-└── .env.example
-```
+### 5. Tourism Impact Dashboard Agent
+Provides insights about tourism impact and sustainability.
 
-## Environment Variables
+## Technology Stack
+- IBM Bob
+- IBM Granite LLM
+- IBM Cloud
+- Next.js
+- AI Agents
+
+## Expected Impact
+- Reduced overcrowding
+- Protection of desert ecosystem
+- Sustainable tourism development
+- Support for local communities
 
 See `.env.example` for all required variables.
