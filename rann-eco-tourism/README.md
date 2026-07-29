@@ -1,4 +1,4 @@
-# Smart Rann of Kutch Eco-Tourism & Carrying Capacity Planner
+# 🏜️ Smart Rann of Kutch Eco-Tourism & Carrying Capacity Planner
 
 ## Domain
 Tourism
@@ -44,10 +44,11 @@ Provides insights about tourism impact and sustainability.
 - Next.js
 - AI Agents
 
+## Configuration
+Environment variables are managed using `.env.example`.
+
 ## Expected Impact
 - Reduced overcrowding
 - Protection of desert ecosystem
 - Sustainable tourism development
 - Support for local communities
-
-See `.env.example` for all required variables.
