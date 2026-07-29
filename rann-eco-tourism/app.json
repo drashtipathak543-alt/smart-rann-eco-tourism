@@ -1,0 +1,10 @@
+{
+  "name": "Smart Rann of Kutch Eco-Tourism & Carrying Capacity Planner",
+  "version": "1.0.0",
+  "description": "Agentic AI solution for sustainable tourism using IBM Granite LLM and IBM Cloud.",
+  "technology": [
+    "IBM Bob",
+    "IBM Granite LLM",
+    "IBM Cloud"
+  ]
+}
