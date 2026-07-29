@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "Home",
+    "map": "Explore Map",
+    "itinerary": "Plan Trip",
+    "weather": "Weather",
+    "crowd": "Crowd Forecast",
+    "analytics": "Analytics",
+    "chatbot": "Ask RannGuide",
+    "login": "Sign In",
+    "register": "Register",
+    "logout": "Sign Out"
+  },
+  "home": {
+    "hero_title": "Discover the Rann of Kutch",
+    "hero_subtitle": "Plan an eco-friendly journey through the world's largest salt desert with AI-powered insights.",
+    "cta_plan": "Plan My Trip",
+    "cta_explore": "Explore Map",
+    "features_title": "Everything You Need for a Sustainable Journey",
+    "feature_ai": "AI Travel Assistant",
+    "feature_ai_desc": "Chat with RannGuide for personalised eco-travel advice.",
+    "feature_crowd": "Crowd Prediction",
+    "feature_crowd_desc": "Know visitor density before you go — plan smarter.",
+    "feature_itinerary": "Eco Itinerary",
+    "feature_itinerary_desc": "AI-generated day-by-day plans with sustainability scores.",
+    "feature_weather": "Live Weather",
+    "feature_weather_desc": "Real-time conditions and 5-day forecast for all Rann spots.",
+    "feature_map": "Interactive Map",
+    "feature_map_desc": "Explore 8 key Rann locations with POI details.",
+    "feature_analytics": "Analytics Dashboard",
+    "feature_analytics_desc": "Visitor trends, eco-impact metrics, and heatmaps."
+  },
+  "chatbot": {
+    "title": "RannGuide AI",
+    "placeholder": "Ask about the Rann...",
+    "send": "Send",
+    "thinking": "Thinking...",
+    "welcome": "Hello! I'm RannGuide 🏜️. Ask me anything about the Rann of Kutch — best time to visit, wildlife, eco tips, or local culture!"
+  },
+  "weather": {
+    "title": "Live Weather",
+    "subtitle": "Real-time conditions for Rann locations",
+    "select_location": "Select a location",
+    "temp": "Temperature",
+    "humidity": "Humidity",
+    "wind": "Wind Speed",
+    "forecast": "5-Day Forecast",
+    "feels_like": "Feels like"
+  },
+  "crowd": {
+    "title": "Crowd Forecast",
+    "subtitle": "AI-predicted visitor density by date and location",
+    "select_location": "Select location",
+    "select_date": "Select date",
+    "predict": "Predict Crowd",
+    "predicted_visitors": "Predicted Visitors",
+    "confidence": "Confidence",
+    "recommendation": "Recommendation",
+    "level_low": "Low",
+    "level_medium": "Moderate",
+    "level_high": "High"
+  },
+  "itinerary": {
+    "title": "Plan Your Eco Trip",
+    "subtitle": "AI-powered personalised itinerary for the Rann of Kutch",
+    "days": "Number of Days",
+    "interests": "Your Interests",
+    "group_size": "Group Size",
+    "generate": "Generate Itinerary",
+    "generating": "Generating...",
+    "eco_score": "Eco Score",
+    "carbon": "Carbon Footprint",
+    "day": "Day",
+    "eco_tip": "Eco Tip",
+    "interests_options": {
+      "wildlife": "Wildlife & Birds",
+      "photography": "Photography",
+      "cultural": "Culture & Heritage",
+      "adventure": "Adventure & Trekking",
+      "wellness": "Wellness & Yoga",
+      "food": "Food & Cuisine"
+    }
+  },
+  "analytics": {
+    "title": "Analytics Dashboard",
+    "subtitle": "Visitor trends and eco-impact for the Rann of Kutch",
+    "total_visitors": "Total Visitors (YTD)",
+    "avg_eco_score": "Avg. Eco Score",
+    "top_location": "Top Location",
+    "avg_stay": "Avg. Stay",
+    "days_suffix": " days",
+    "revenue": "Revenue (INR)",
+    "visitor_trend": "Visitor Trend",
+    "crowd_heatmap": "Crowd Heatmap",
+    "last_30": "Last 30 Days",
+    "last_90": "Last 90 Days"
+  },
+  "map": {
+    "title": "Explore Rann Locations",
+    "subtitle": "Click a marker to learn more about each eco-tourism spot",
+    "eco_rating": "Eco Rating",
+    "best_months": "Best Months",
+    "activities": "Activities"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong. Please try again.",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "kg_co2": "kg CO₂"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "હોમ",
+    "map": "નકશો જુઓ",
+    "itinerary": "પ્રવાસ યોજના",
+    "weather": "હવામાન",
+    "crowd": "ભીડ આગાહી",
+    "analytics": "વિશ્લેષણ",
+    "chatbot": "રણ ગાઇડ પૂછો",
+    "login": "સાઇન ઇન",
+    "register": "નોંધણી",
+    "logout": "સાઇન આઉટ"
+  },
+  "home": {
+    "hero_title": "કચ્છના રણની શોધ કરો",
+    "hero_subtitle": "AI-સક્ષમ આંતરદૃષ્ટિ સાથે વિશ્વના સૌથી મોટા મીઠાના રણમાં પર્યાવરણ-સ્નેહી પ્રવાસ આયોજન કરો.",
+    "cta_plan": "મારી સફર આયોજો",
+    "cta_explore": "નકશો જુઓ",
+    "features_title": "ટકાઉ પ્રવાસ માટે બધું",
+    "feature_ai": "AI પ્રવાસ સહાયક",
+    "feature_ai_desc": "વ્યક્તિગત ઇકો-પ્રવાસ સલાહ માટે રણ ગાઇડ સાથે ચેટ કરો.",
+    "feature_crowd": "ભીડ આગાહી",
+    "feature_crowd_desc": "જતા પહેલા મુલાકાતી ઘનતા જાણો — સ્માર્ટ આયોજન કરો.",
+    "feature_itinerary": "ઇકો ઇટિનરરી",
+    "feature_itinerary_desc": "ટકાઉ સ્કોર સાથે AI-જનિત દિવસ-દર-દિવસ યોજનાઓ.",
+    "feature_weather": "લાઇવ હવામાન",
+    "feature_weather_desc": "તમામ રણ સ્થળો માટે વાસ્તવિક સ્થિતિ.",
+    "feature_map": "ઇન્ટરેક્ટિવ નકશો",
+    "feature_map_desc": "POI વિગતો સાથે 8 મુખ્ય રણ સ્થળો અન્વેષণ કરો.",
+    "feature_analytics": "વિશ્લેષણ ડૅશબોર્ડ",
+    "feature_analytics_desc": "મુલાકાતી વલણો, ઇકો-અસર મેટ્રિક્સ અને હીટમેપ."
+  },
+  "chatbot": {
+    "title": "રણ ગાઇડ AI",
+    "placeholder": "રણ વિશે પૂછો...",
+    "send": "મોકલો",
+    "thinking": "વિચારી રહ્યો છું...",
+    "welcome": "નમસ્તે! હું રણ ગાઇડ છું 🏜️. કચ્છના રણ વિશે કંઈ પણ પૂછો!"
+  },
+  "weather": {
+    "title": "લાઇવ હવામાન",
+    "subtitle": "રણ સ્થળો માટે વાસ્તવિક સ્થિતિ",
+    "select_location": "સ્થળ પસંદ કરો",
+    "temp": "તાપમાન",
+    "humidity": "ભેજ",
+    "wind": "પવનની ઝડપ",
+    "forecast": "5-દિવસ આગાહી",
+    "feels_like": "અનુભૂતિ"
+  },
+  "crowd": {
+    "title": "ભીડ આગાહી",
+    "subtitle": "તારીખ અને સ્થળ પ્રમાણે AI-અનુમાનિત મુલાકાતી ઘનતા",
+    "select_location": "સ્થળ પસંદ કરો",
+    "select_date": "તારીખ પસંદ કરો",
+    "predict": "ભીડ અનુમાન",
+    "predicted_visitors": "અનુમાનિત મુલાકાતી",
+    "confidence": "વિશ્વાસ",
+    "recommendation": "ભલામણ",
+    "level_low": "ઓછી",
+    "level_medium": "મધ્યમ",
+    "level_high": "વધારે"
+  },
+  "itinerary": {
+    "title": "ઇકો સફર આયોજો",
+    "subtitle": "કચ્છના રણ માટે AI-સક્ષમ વ્યક્તિગત ઇટિનરરી",
+    "days": "દિવસોની સંખ્યા",
+    "interests": "તમારી રુચિઓ",
+    "group_size": "જૂથ સાઇઝ",
+    "generate": "ઇટિનરરી બનાવો",
+    "generating": "બનાવી રહ્યા છીએ...",
+    "eco_score": "ઇકો સ્કોર",
+    "carbon": "કાર્બન ફૂટપ્રિન્ટ",
+    "day": "દિવસ",
+    "eco_tip": "ઇકો ટિપ",
+    "interests_options": {
+      "wildlife": "વન્ય જીવ અને પક્ષીઓ",
+      "photography": "ફોટોગ્રાફી",
+      "cultural": "સંસ્કૃતિ અને વારસો",
+      "adventure": "સ冒险 અને ટ્રેકિંગ",
+      "wellness": "સ્વાસ્થ્ય અને યોગ",
+      "food": "ખોરાક અને ભોજન"
+    }
+  },
+  "analytics": {
+    "title": "વિશ્લેષણ ડૅશબોર્ડ",
+    "subtitle": "કચ્છના રણ માટે મુલાકાتی વલણ અને ઇકો-અસર",
+    "total_visitors": "કુલ મુલાકાتی (YTD)",
+    "avg_eco_score": "સરેરાશ ઇકો સ્કોર",
+    "top_location": "ટોચ સ્થળ",
+    "avg_stay": "સરેરાશ રોકાણ",
+    "days_suffix": " દિવસ",
+    "revenue": "આવક (INR)",
+    "visitor_trend": "મુلاقاتی વલણ",
+    "crowd_heatmap": "ભีड़ હીटมैप",
+    "last_30": "છેલ્લા 30 દિવસ",
+    "last_90": "છેલ્લા 90 દિવસ"
+  },
+  "map": {
+    "title": "રણ સ્થળો અન્વેષણ કરો",
+    "subtitle": "દરેક ઇکو-ટૂरिझम સ્થળ વિશે વધુ જાણવા માટે માર્કર ક્લિक કरо",
+    "eco_rating": "ઇکو રेटिंग",
+    "best_months": "शे़ष्ठ मासा",
+    "activities": "गतिविधिओ"
+  },
+  "common": {
+    "loading": "લोड थई रहुं छे...",
+    "error": "कुछ गलत थयुं। कृपया फरी प्रयत्न करो।",
+    "back": "पाछळ",
+    "save": "सहेजो",
+    "cancel": "रद्द करो",
+    "kg_co2": "kg CO₂"
+  }
+}

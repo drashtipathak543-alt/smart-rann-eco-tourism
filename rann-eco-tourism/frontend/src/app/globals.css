@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+Gujarati:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --sand-500: #dc8f28;
+    --rann-teal: #2a9d8f;
+    --rann-blue: #1e6b8a;
+  }
+  html { @apply scroll-smooth; }
+  body { @apply bg-stone-50 text-stone-900 antialiased; }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-sand-500 text-white font-semibold text-sm
+           hover:bg-sand-600 active:bg-sand-700 transition-colors duration-150 shadow-sm;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-stone-300 bg-white text-stone-700
+           font-semibold text-sm hover:bg-stone-50 active:bg-stone-100 transition-colors duration-150;
+  }
+  .card {
+    @apply bg-white rounded-2xl border border-stone-200 shadow-sm overflow-hidden;
+  }
+  .input-field {
+    @apply w-full rounded-xl border border-stone-300 px-4 py-2.5 text-sm text-stone-900
+           focus:outline-none focus:ring-2 focus:ring-sand-400 focus:border-transparent
+           placeholder:text-stone-400 bg-white transition;
+  }
+  .badge {
+    @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium;
+  }
+  .section-heading {
+    @apply text-2xl font-bold text-stone-900 mb-1;
+  }
+  .section-sub {
+    @apply text-sm text-stone-500 mb-6;
+  }
+}
+
+/* Crowd level badges */
+.badge-low    { @apply badge bg-emerald-100 text-emerald-700; }
+.badge-medium { @apply badge bg-amber-100 text-amber-700; }
+.badge-high   { @apply badge bg-red-100 text-red-700; }
+
+/* Eco score gradient */
+.eco-score-high   { @apply text-emerald-600 font-bold; }
+.eco-score-medium { @apply text-amber-600 font-bold; }
+.eco-score-low    { @apply text-red-600 font-bold; }
+
+/* Chat bubbles */
+.bubble-user      { @apply bg-sand-500 text-white rounded-2xl rounded-br-sm px-4 py-2.5 max-w-[75%] text-sm; }
+.bubble-assistant { @apply bg-stone-100 text-stone-800 rounded-2xl rounded-bl-sm px-4 py-2.5 max-w-[75%] text-sm; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f0ee; }
+::-webkit-scrollbar-thumb { background: #c7b89a; border-radius: 3px; }
